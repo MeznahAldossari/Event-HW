@@ -197,8 +197,43 @@
   .rover-123-item > p {
     text-align: center;
   }
+  .nav-bar {
+    display: block;
+  }
+  .rover-header-left,
+  .rover-header-right {
+    display: none;
+  }
+  .rover-header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rover-header-container img {
+    width: 15vw;
+    height: 10vh;
+  }
+  .dropdown-content {
+    display: none;
+  }
+  .dropdown i {
+    width: 4vw;
+    height: 3vh;
+    font-size: 1.8em;
+    vertical-align: middle;
+    color: rgb(66, 143, 66);
+  }
+  .dropdown button {
+    cursor: pointer;
+    width: 6vw;
+    height: 4vh;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
 }
 @media only screen and (min-width: 651px) {
+  .nav-bar {
+    display: none;
+  }
   .rover-header-container {
     display: flex;
     justify-content: space-between;
