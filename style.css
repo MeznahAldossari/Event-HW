@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 650px) {
+  .rover-header-container img {
+    width: 5vw;
+    height: 5vh;
+  }
+  .rover-hero-container {
+    background-image: url(bg-dog2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .rover-hero-container h1 {
+    font-size: 2.5em;
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 60vw;
+  }
+  .rover-hero-container p {
+    font-size: 2em;
+    color: black;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width: 60vw;
+  }
+  .rover-middle-section > h2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .factandboxContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    justify-content: space-between;
+  }
+  .rover-facts-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .rover-facts-container img {
+    width: 5rem;
+    height: 5rem;
+    display: inline;
+  }
+  .rover-fact-indiv {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rover-cta-box {
+    /* background-color: aqua; */
+    height: 38vh;
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid rgb(202, 200, 200);
+  }
+  .rover-cta-header {
+    display: flex;
+    background-color: gainsboro;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    /* border: 1 solid gainsboro;
+    border-radius: 10px; */
+  }
+  .rover-cta-header > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 10px;
+  }
+  .rover-cta-header > p {
+    margin-left: 10px;
+  }
+  .rover-facts li {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .rover-facts {
+    /* background-color: bisque; */
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  .rover-facts span {
+    color: green;
+  }
+  .rover-cta {
+    width: 40vw;
+    background-color: rgb(64, 184, 64);
+    width: 80%;
+    height: 4vh;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+    line-height: 1.9rem;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .form-div > p {
+    width: 100%;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .rover-action-shot {
+    background-image: url(dog6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 90vw;
+    height: 90vh;
+    z-index: -1;
+    position: relative;
+    margin: 40px;
+  }
+  .rover-action-quote-container {
+    background-color: white;
+    width: 26vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5em;
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    border: 1px solid gainsboro;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    overflow: auto;
+  }
+  .rover-action-dash {
+    margin-bottom: 10px;
+    color: rgb(64, 184, 64);
+    font-weight: bold;
+  }
+  .rover-quote {
+    font-weight: bold;
+  }
+  .rover-quote span {
+    color: gray;
+  }
+  .rover-last {
+    margin-top: 10px;
+  }
+
+  .rover-123-container h2 {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .rover-123-item-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .rover-123-item-container img {
+    width: 5rem;
+    height: 4rem;
+    margin-top: 20px;
+  }
+  .rover-123-item {
+    /* background-color: aquamarine; */
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rover-123-item > p {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 651px) {
+  .rover-header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rover-header-container img {
+    width: 8vw;
+    height: 8vh;
+  }
+  .rover-header-container a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+  }
+  .rover-hero-container {
+    background-image: url(bg-dog2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+  }
+  .rover-hero-container h1 {
+    font-size: 2.5em;
+    color: rgb(89, 87, 87);
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+
+  .rover-hero-container p {
+    font-size: 1.5em;
+    color: rgb(89, 87, 87);
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 25vw;
+  }
+
+  .rover-middle-section > h2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .factandboxContainer {
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    justify-content: space-between;
+    /* float: left; */
+  }
+  .rover-facts-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .rover-facts-container img {
+    width: 3rem;
+    height: 3rem;
+    display: inline;
+  }
+  .rover-fact-indiv {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+  .rover-cta-box {
+    /* background-color: aqua; */
+    height: 38vh;
+    width: 40vw;
+    border: 1px solid gainsboro;
+  }
+  .rover-cta-header {
+    display: flex;
+    background-color: gainsboro;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 1 solid gainsboro;
+    border-radius: 10px; */
+  }
+  .rover-cta-header > img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .rover-cta-header > p {
+    margin-left: 10px;
+  }
+  .rover-facts li {
+    list-style: none;
+    margin-top: 10px;
+  }
+  .rover-facts {
+    /* background-color: bisque; */
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .rover-facts span {
+    color: green;
+  }
+  .rover-cta {
+    width: 40vw;
+    background-color: rgb(64, 184, 64);
+    width: 80%;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+    line-height: 1.5rem;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .form-div > p {
+    width: 40vw;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .rover-action-shot {
+    background-image: url(dog6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 90vw;
+    height: 90vh;
+    z-index: -1;
+    position: relative;
+    margin: 40px;
+  }
+  .rover-action-quote-container {
+    background-color: white;
+    width: 26vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5em;
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    border: 1px solid gainsboro;
+  }
+  .rover-action-dash {
+    margin-bottom: 10px;
+    color: rgb(64, 184, 64);
+    font-weight: bold;
+  }
+  .rover-quote {
+    font-weight: bold;
+  }
+  .rover-quote span {
+    color: gray;
+  }
+  .rover-last {
+    margin-top: 10px;
+  }
+  /* here */
+
+  .rover-123-container h2 {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .rover-123-item-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: bisque; */
+    margin-top: 30px;
+  }
+  .rover-123-item-container img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .rover-123-item {
+    /* background-color: aquamarine; */
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rover-123-item > p {
+    text-align: center;
+  }
+}
