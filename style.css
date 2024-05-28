@@ -213,8 +213,16 @@
     width: 15vw;
     height: 10vh;
   }
-  .dropdown-content {
-    display: none;
+  .nav-bar {
+    width: 80%;
+    height: 40vh;
+
+    position: absolute;
+    left: 20%;
+  }
+  .dropdown {
+    width: 80%;
+    margin-right: 0;
   }
   .dropdown i {
     width: 4vw;
@@ -223,12 +231,37 @@
     vertical-align: middle;
     color: rgb(66, 143, 66);
   }
+  .dropdown a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 10px;
+    font-size: 1.3em;
+  }
   .dropdown button {
     cursor: pointer;
-    width: 6vw;
-    height: 4vh;
+    width: 9vw;
+    height: 7vh;
     margin-top: 10px;
     margin-right: 10px;
+    position: absolute;
+    left: 80%;
+  }
+  .dropdown {
+    /* position: relative; */
+    display: inline;
+  }
+  .dropdown-content {
+    background-color: white;
+    height: 34vh;
+    width: 91%;
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .dropdown-content .dc-section {
+    margin-top: 67px;
+    font-size: 20px;
+    line-height: 2.3rem;
   }
 }
 @media only screen and (min-width: 651px) {
