@@ -188,11 +188,12 @@
   }
   .rover-123-item {
     /* background-color: aquamarine; */
-    width: 20vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   .rover-123-item > p {
     text-align: center;
