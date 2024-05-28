@@ -230,9 +230,10 @@
     font-size: 3em;
     line-height: 2.5rem;
     vertical-align: middle;
-    margin-right: 2px;
+    margin-right: 9px;
+    /* margin-left: 5px; */
 
-    color: rgb(66, 143, 66);
+    color: #428f42;
   }
   .dropdown a {
     text-decoration: none;
@@ -242,6 +243,9 @@
     font-size: 1.3em;
   }
   .dropdown button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     width: 11vw;
     height: 7vh;
@@ -249,9 +253,10 @@
     margin-right: 10px;
     position: absolute;
     left: 80%;
-    background-color: red;
+    background-color: white;
     border: none;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
   }
   .dropdown {
     /* position: relative; */
